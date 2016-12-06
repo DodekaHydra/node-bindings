@@ -73,7 +73,7 @@ function bindings (opts) {
     }))
     tries.push(n)
     try {
-      b = opts.path ? require.resolve(n) : require(n)
+      b = opts.path ? __non_webpack_require__.resolve(n) : __non_webpack_require__(n)
       if (!opts.path) {
         b.path = n
       }
