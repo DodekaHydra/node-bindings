@@ -1,4 +1,4 @@
-node-bindings
+Webpack friendly node-bindings
 =============
 ### Helper module for loading your native module's .node file
 
